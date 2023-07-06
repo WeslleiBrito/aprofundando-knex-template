@@ -1,4 +1,4 @@
--- Active: 1681473326768@@127.0.0.1@3306
+-- Active: 1688596330678@@127.0.0.1@3306
 -- Tabelas já foram criadas
 CREATE TABLE bands (
     id TEXT PRIMARY KEY UNIQUE NOT NULL,
@@ -14,6 +14,7 @@ CREATE TABLE songs (
       ON UPDATE CASCADE
 );
 
+SELECT * from songs;
 -- Bandas já foram inseridas
 INSERT INTO bands (id, name)
 VALUES
